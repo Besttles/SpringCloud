@@ -1,0 +1,1 @@
+package com.forezp.feign.eureka;import org.springframework.stereotype.Component;@Componentpublic class EurekaInvokerFeed implements EurekaInvoker {    @Override    public String getHello() {        return "has some error !";    }}

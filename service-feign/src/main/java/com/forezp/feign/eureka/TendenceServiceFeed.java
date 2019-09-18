@@ -1,0 +1,1 @@
+package com.forezp.feign.eureka;import org.springframework.stereotype.Component;@Componentpublic class TendenceServiceFeed implements TendenceService {    @Override    public String getName(String name) {        return name+"  has some error!";    }}
